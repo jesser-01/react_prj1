@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Navbar{
+  padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.Navbar #dropdown-contunier{
+  cursor: pointer;
+}
+.Navbar>ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  font-size: 20px;
+}
+.Navbar button{
+  border: none;
+  background-color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: gray;
+}
+.products{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+.product{
+  background-color:burlywood;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  border: 2px solid black;
+  padding: 10px;
+  
+}
+.hello{
+  height: 300px;
+  width: 500px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hello button{
+  height: 40px;
+  width: 300px;
+}
+.Text{
+  height: 200px;
+  width: 400px;
+}
+.Text input{
+  height: 40px;
+  width: 300px;
+  margin: 40px;
+}
+.dropdown{
+  position: absolute;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  color: black;
+}
+.dropdown ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 100%;
+}
+.dropdown ul li{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  height: 100%;
+}
